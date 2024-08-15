@@ -181,7 +181,7 @@ const NotesList = () => {
                 </Text>
               </Flex>
               <Text mt={2}>{note.body.substring(0, 100)}...</Text>
-              <Flex mt={2} gap={2} justifyContent='flex-end'>
+              <Flex mt={2} gap={2}>
                 <Button
                   h={33}
                   colorScheme="blue"

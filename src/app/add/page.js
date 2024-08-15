@@ -37,8 +37,8 @@ const AddNote = () => {
 
       if (res.ok) {
         toast({
-          title: "Note added successfully.",
-          description: "Your note has been added successfully.",
+          title: "Berhasil ditambah.",
+          description: "Catatan berhasil ditambah.",
           status: "success",
           duration: 5000,
           isClosable: true,
